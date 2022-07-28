@@ -127,7 +127,7 @@ public class Main {
         devManoel.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdos Inscritos Manoel:\n" + devManoel.getConteudosInscritos());
         devManoel.progredir();
-        devManoel.progredir();
+        devManoel.progredir(); 
         devManoel.progredir();
         devManoel.progredir();
         devManoel.progredir();

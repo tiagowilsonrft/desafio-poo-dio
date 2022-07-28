@@ -41,7 +41,7 @@ public class Bootcamp {
     }
 
     public Set<Dev> getDevsInscritos() {
-        return devsInscritos;
+        return devsInscritos; 
     }
 
     public void setDevsInscritos(Set<Dev> devsInscritos) {

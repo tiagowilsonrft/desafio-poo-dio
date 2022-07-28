@@ -18,7 +18,7 @@ public abstract class Conteudo {
     }
 
     public String getDescricao() {
-        return descricao;
+        return descricao; 
     }
 
     public void setDescricao(String descricao) {

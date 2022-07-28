@@ -55,7 +55,7 @@ public class Dev {
     }
 
     public Set<Conteudo> getConteudosConcluidos() {
-        return conteudosConcluidos;
+        return conteudosConcluidos; 
     }
 
     public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
