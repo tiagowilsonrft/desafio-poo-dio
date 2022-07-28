@@ -1,10 +1,12 @@
 package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Mentoria extends Conteudo{
 
     private LocalDate data;
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     @Override
     public double calcularXp() {
@@ -25,9 +27,9 @@ public class Mentoria extends Conteudo{
     @Override
     public String toString() {
         return "Mentoria{" +
-                "titulo='" + getTitulo() + '\'' +
-                ", descricao='" + getDescricao() + '\'' +
-                ", data=" + data +
+                "titulo='" + getTitulo() + '\'' + 
+                ",\ndescricao='" + getDescricao() + '\'' +
+                ",\ndata=" + formatter.format(data) +
                 '}';
     }
 }
