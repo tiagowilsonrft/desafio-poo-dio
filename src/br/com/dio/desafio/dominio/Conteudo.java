@@ -21,7 +21,7 @@ public abstract class Conteudo {
         return descricao; 
     }
  
-    public void setDescricao(String descricao) {
+    public void setDescricao(String descricao) { 
         this.descricao = descricao;
     }
 }
